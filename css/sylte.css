@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: serif;
+    overflow: scroll !important;
+
+}
+
+/* -------General sytles------- */
+.form-control {
+    box-shadow: none !important;
+}
+
+
+input[type=search] {
+    border-radius: 0px !important;
+
+}
+
+input[type=search]:focus {
+    border: 1px solid #888;
+}
+
+input[type=search]::placeholder {
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+.row-1{
+    padding: 2em;
+}
+
+.row-2{
+    padding: 1em;
+}
+
+.img-size{
+    width: 588px !important;
+    height: 580px !important;
+}
+/* -------button------- */
+.btn-primary{
+    color: #fff;
+    background-color: #8a3812;
+    padding: 13px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 1px !important;
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+.btn-primary:hover{
+    background-color: #742d0d;
+}
+
+
+/* --------Navbar------------- */
+.floater {
+    background-color: #8a3812;
+    color: #fff !important;
+    padding: 5px 0;
+    font-size: 20px !important;
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+.floater span {
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 2% !important;
+
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+        color: #fff;
+}
+
+.navbar a span {
+    color: #8a3812;
+}
+
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 20px !important;
+    padding: 1em !important;
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+.navbar ul li a:hover {
+    color: #888;
+    font-size: 20px !important;
+    padding: 1em !important;
+}
+
+.dropdown-item {
+    color: #000 !important;
+}
+
+.nav-icon {
+    padding: 0 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.nav-icon a {
+    color: #fff !important;
+}
+
+
+
+.navbar form i {
+    position: relative;
+    left: 22px;
+    top: 10px;
+    color: #888;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+.navbar-toggler span {
+    color: #fff !important;
+    width: 1em !important;
+}
+
+
+
+
+
+
+
+/* ----Header---- */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75% !important;
+}
+
+.first-p {
+    font-family: 'Nunito', sans-serif !important;
+    letter-spacing: 3px;
+    margin-bottom: 2em;
+}
+
+   /* --------Remember to make this responsive---------- */
+.intro-text {
+    font-size: 4em;
+    font-family: serif !important;
+}
+
+.img-box {
+    float: left;
+    clear: left;
+}
+
+.img-box img {
+    height: 7em !important;
+    max-width: 7em !important;
+}
+
+.img-box:hover {
+    transform: scale(1.02) !important;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.img-details {
+    background-color: #fff !important;
+    color: #000 !important;
+    height: 7em !important;
+    width: 16em !important;
+    margin-left: 3px !important;
+}
+
+
+
+
+
+.img-link {
+    font-family: 'Nunito', sans-serif !important;
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+    color: #000;
+}
+
+.img-link:hover {
+    color: #555;
+}
+
+.img-price {
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+.img-name{
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+
+/* --------Remember to make this responsive---------- */
+.bottom-img {
+    margin-top: 20em !important;
+
+}
+
+/* --------section one-------- */
+
+   
+    .formal-woman{
+        background-image: url('../img/formal-woman-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        width: 100%;
+        padding: 1em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        cursor: pointer;
+
+    }
+
+    .formal-man{
+        min-height: 50vh;
+        background-image: url('../img/formal-men-1.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        padding: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        cursor: pointer;
+    }
+
+    .casual-style{
+        background-image: url('../img/casual-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        cursor: pointer;
+
+        
+
+    }
+
+    .img-absolute{
+        font-size: 2.8em;
+     padding-left: 20px;
+     padding-top: 170px;
+    }
+
+    .casual-text{
+    font-size: 2.8em;
+
+     padding-left: 20px;
+     padding-top: 400px;
+    }
+
+    .section-1 a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+
+    }
+
+    .section-1 a:hover {
+        color: #f3b395;
+    }
+
+
+    /* --------Section two------- */
+    .section-header{
+        color: #000;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 0.8em;
+    }
+
+    .product-category{
+        color: #888;
+        font-family: 'Nunito', sans-serif !important;
+
+    }
+
+    .prd-name{
+        color: #222;
+    }
+
+    .idr{
+        color: #888;
+        font-family: 'Nunito', sans-serif !important;
+
+    }
+
+    /* ------Section Three------- */
+    .services{
+        border: 25px solid #e7e5e5;
+        border-collapse: collapse;
+        margin: 1em;
+        padding: 1.5em;
+    }
+
+    .service-icon{
+        color: #fff;
+        background-color: #8a3812;
+        padding: 0.9em 1.2em;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 20px;
+    }
+
+    .service-header{
+        color: #000;
+        margin-top: 10px;
+        font-size: 1.8em;
+    }
+
+    .service-p{
+        color: #000;
+        font-family: 'Nunito', sans-serif !important;
+
+    }
+/* --------Remember to make this responsive-------- */
+    .first-child{
+        display: flex !important;
+        align-items: flex-start !important;
+        gap: 1.5em !important;
+        margin-bottom: 2em;
+    }
+
+    .second-child{
+        display: flex !important;
+        align-items: flex-start !important;
+        gap: 1.5em !important;
+    }
+
+
+    /* -----Section Four-------- */
+    .video-player{
+        max-width: 1550px;
+        margin: auto;
+        overflow: hidden;
+            }
+
+    .video{
+        width: 100%;
+    }
+
+    /* -------section five------ */
+    .reviews{
+        background-color: #faf6f6;
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5em;
+        padding: 4em 1.5em;
+        margin: 2em;
+        position: relative;
+        top: 180px;
+        color: #000;
+        font-family: 'Nunito', sans-serif !important;
+
+    }
+    .review-box{
+        background-color: #fff;
+        width: 400px ;
+        height: fit-content;
+        padding: 1em;
+
+    }
+
+    .review-1{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .red-dot{
+        display: inline-block;
+        padding: 1.5em;
+        border-radius: 50%;
+        background-color: #5a2106;
+        
+    }
+
+    .review-name{
+        display: inline-block;
+    }
+    
+
+    /* --------footer------ */
+    .footer{
+        background-color: #8a3812;
+        padding:15em 5em 1em 3em ;
+        font-family: 'Nunito', sans-serif !important;
+
+    }
+
+    .footer a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer a:hover{
+        color: #c7c3c3;
+    }
+
+    .footer-header-1{
+        font-size: 2.9em ;
+        font-family: serif;
+    }
+
+    .footer-sub-header{
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+
+
+
+
+
+    /* -------Responsiveness------- */
+    @media only screen and (max-width: 767px) {
+        .bottom-img {
+            margin-top: 0em !important;
+        
+        }
+
+        .navbar {
+            margin-bottom: 10% !important;
+        
+        }
+
+
+        .first-child{
+            display: inline-block !important;
+            margin-bottom: 2em;
+        }
+    
+        .second-child{
+            display: inline-block !important;
+           
+        }
+    
+    
+    }
