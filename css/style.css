@@ -8,10 +8,10 @@ body {
     color: #fff;
     font-family: serif;
     overflow: scroll !important;
-
+    overflow-x: hidden !important;
 }
 
-/* -------General sytles------- */
+/* -------General styles------- */
 .form-control {
     box-shadow: none !important;
 }
@@ -31,13 +31,6 @@ input[type=search]::placeholder {
 
 }
 
-.row-1{
-    padding: 2em;
-}
-
-.row-2{
-    padding: 1em;
-}
 
 .img-size{
     width: 588px !important;
@@ -348,14 +341,14 @@ header {
 
     }
 /* --------Remember to make this responsive-------- */
-    .first-child{
+    .first-section{
         display: flex !important;
         align-items: flex-start !important;
         gap: 1.5em !important;
         margin-bottom: 2em;
     }
 
-    .second-child{
+    .second-section{
         display: flex !important;
         align-items: flex-start !important;
         gap: 1.5em !important;
@@ -439,6 +432,7 @@ header {
     .footer-sub-header{
         font-weight: bold;
         margin-bottom: 1em;
+        cursor: pointer;
     }
 
 
@@ -459,15 +453,17 @@ header {
         }
 
 
-        .first-child{
+        .first-section{
             display: inline-block !important;
             margin-bottom: 2em;
         }
     
-        .second-child{
+        .second-section{
             display: inline-block !important;
            
         }
     
-    
+        .footer-sub-header{
+            margin: 1em 0;
+        }
     }
